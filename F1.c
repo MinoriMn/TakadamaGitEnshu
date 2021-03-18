@@ -5,6 +5,8 @@ int main(void) {
   printMaxAndMin(input, sizeof(input) / sizeof(int));
 }
 
+// コメント
+
 void printMaxAndMin(int input[], int size) {
   int i;
 
