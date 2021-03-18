@@ -5,8 +5,6 @@ int main(void) {
   printMaxAndMin(input, sizeof(input) / sizeof(int));
 }
 
-// コメント
-
 void printMaxAndMin(int input[], int size) {
   int i;
 
@@ -15,7 +13,7 @@ void printMaxAndMin(int input[], int size) {
     if(input[i] > max) max = input[i];
   }
 
-  int min = input[0];
+  int min = input[1];
   for (i = 1; i < size; i++){
     if(input[i] < min) min = input[i];
   }
